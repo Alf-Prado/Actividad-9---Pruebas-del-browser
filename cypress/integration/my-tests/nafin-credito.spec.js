@@ -1,6 +1,6 @@
 describe('https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do', () => {
-    describe('Page loads', () => {
-        it('Should load the page', () => {
+    describe('Calculator results', () => {
+        it('Should show the 24 rows', () => {
             cy.visit('https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do')
 
             cy.get('#dispDate')
